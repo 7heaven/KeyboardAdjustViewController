@@ -23,7 +23,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     ViewController *rootViewController = [[ViewController alloc] init];
-    rootViewController.keyboardAdjustStyle = KeyboardAdjustScaling;
+    rootViewController.keyboardAdjustStyle = KeyboardAdjustScrolling;
     
     self.window.rootViewController = rootViewController;
     
