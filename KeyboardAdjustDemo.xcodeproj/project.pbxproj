@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AF07C201B2987EA00FBA55C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF07C1F1B2987EA00FBA55C /* main.m */; };
+		9AF07C231B2987EA00FBA55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF07C221B2987EA00FBA55C /* AppDelegate.m */; };
+		9AF07C2C1B2987EA00FBA55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF07C2A1B2987EA00FBA55C /* Main.storyboard */; };
+		9AF07C2E1B2987EA00FBA55C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF07C2D1B2987EA00FBA55C /* Images.xcassets */; };
+		9AF07C311B2987EA00FBA55C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AF07C2F1B2987EA00FBA55C /* LaunchScreen.xib */; };
+		9AF07C3D1B2987EA00FBA55C /* KeyboardAdjustDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF07C3C1B2987EA00FBA55C /* KeyboardAdjustDemoTests.m */; };
+		9AF07C441B29891C00FBA55C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF07C0E1B297F6800FBA55C /* ViewController.m */; };
+		9AF07C4E1B298A7F00FBA55C /* KeyboardAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF07C031B2978E600FBA55C /* KeyboardAdjustViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AF07C371B2987EA00FBA55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF07BCD1B29774A00FBA55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF07C1A1B2987EA00FBA55C;
+			remoteInfo = KeyboardAdjustDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AF07BF31B29774B00FBA55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF07BF41B29774C00FBA55C /* KeyboardAdjustTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardAdjustTests.m; sourceTree = "<group>"; };
+		9AF07C021B2978E600FBA55C /* KeyboardAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyboardAdjustViewController.h; path = KeyboardAdjust/KeyboardAdjustViewController.h; sourceTree = "<group>"; };
+		9AF07C031B2978E600FBA55C /* KeyboardAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyboardAdjustViewController.m; path = KeyboardAdjust/KeyboardAdjustViewController.m; sourceTree = "<group>"; };
+		9AF07C0D1B297F6800FBA55C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AF07C0E1B297F6800FBA55C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AF07C1B1B2987EA00FBA55C /* KeyboardAdjustDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAdjustDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF07C1E1B2987EA00FBA55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF07C1F1B2987EA00FBA55C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AF07C211B2987EA00FBA55C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AF07C221B2987EA00FBA55C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AF07C2B1B2987EA00FBA55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AF07C2D1B2987EA00FBA55C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AF07C301B2987EA00FBA55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9AF07C361B2987EA00FBA55C /* KeyboardAdjustDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardAdjustDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF07C3B1B2987EA00FBA55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF07C3C1B2987EA00FBA55C /* KeyboardAdjustDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardAdjustDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF07C181B2987EA00FBA55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF07C331B2987EA00FBA55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AF07BCC1B29774A00FBA55C = {
+			isa = PBXGroup;
+			children = (
+				9AF07BFE1B29781B00FBA55C /* KeyboardAdjust */,
+				9AF07BF11B29774B00FBA55C /* KeyboardAdjustTests */,
+				9AF07C1B1B2987EA00FBA55C /* KeyboardAdjustDemo.app */,
+				9AF07C1C1B2987EA00FBA55C /* KeyboardAdjustDemo */,
+				9AF07C361B2987EA00FBA55C /* KeyboardAdjustDemoTests.xctest */,
+				9AF07C391B2987EA00FBA55C /* KeyboardAdjustDemoTests */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF07BF11B29774B00FBA55C /* KeyboardAdjustTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF07BF41B29774C00FBA55C /* KeyboardAdjustTests.m */,
+				9AF07BF21B29774B00FBA55C /* Supporting Files */,
+			);
+			path = KeyboardAdjustTests;
+			sourceTree = "<group>";
+		};
+		9AF07BF21B29774B00FBA55C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AF07BF31B29774B00FBA55C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AF07BFE1B29781B00FBA55C /* KeyboardAdjust */ = {
+			isa = PBXGroup;
+			children = (
+				9AF07C021B2978E600FBA55C /* KeyboardAdjustViewController.h */,
+				9AF07C031B2978E600FBA55C /* KeyboardAdjustViewController.m */,
+			);
+			name = KeyboardAdjust;
+			sourceTree = "<group>";
+		};
+		9AF07C1C1B2987EA00FBA55C /* KeyboardAdjustDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9AF07C211B2987EA00FBA55C /* AppDelegate.h */,
+				9AF07C221B2987EA00FBA55C /* AppDelegate.m */,
+				9AF07C0D1B297F6800FBA55C /* ViewController.h */,
+				9AF07C0E1B297F6800FBA55C /* ViewController.m */,
+				9AF07C2A1B2987EA00FBA55C /* Main.storyboard */,
+				9AF07C2D1B2987EA00FBA55C /* Images.xcassets */,
+				9AF07C2F1B2987EA00FBA55C /* LaunchScreen.xib */,
+				9AF07C1D1B2987EA00FBA55C /* Supporting Files */,
+			);
+			path = KeyboardAdjustDemo;
+			sourceTree = "<group>";
+		};
+		9AF07C1D1B2987EA00FBA55C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AF07C1E1B2987EA00FBA55C /* Info.plist */,
+				9AF07C1F1B2987EA00FBA55C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AF07C391B2987EA00FBA55C /* KeyboardAdjustDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF07C3C1B2987EA00FBA55C /* KeyboardAdjustDemoTests.m */,
+				9AF07C3A1B2987EA00FBA55C /* Supporting Files */,
+			);
+			path = KeyboardAdjustDemoTests;
+			sourceTree = "<group>";
+		};
+		9AF07C3A1B2987EA00FBA55C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AF07C3B1B2987EA00FBA55C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF07C1A1B2987EA00FBA55C /* KeyboardAdjustDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF07C3E1B2987EA00FBA55C /* Build configuration list for PBXNativeTarget "KeyboardAdjustDemo" */;
+			buildPhases = (
+				9AF07C171B2987EA00FBA55C /* Sources */,
+				9AF07C181B2987EA00FBA55C /* Frameworks */,
+				9AF07C191B2987EA00FBA55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardAdjustDemo;
+			productName = KeyboardAdjustDemo;
+			productReference = 9AF07C1B1B2987EA00FBA55C /* KeyboardAdjustDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AF07C351B2987EA00FBA55C /* KeyboardAdjustDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF07C411B2987EA00FBA55C /* Build configuration list for PBXNativeTarget "KeyboardAdjustDemoTests" */;
+			buildPhases = (
+				9AF07C321B2987EA00FBA55C /* Sources */,
+				9AF07C331B2987EA00FBA55C /* Frameworks */,
+				9AF07C341B2987EA00FBA55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF07C381B2987EA00FBA55C /* PBXTargetDependency */,
+			);
+			name = KeyboardAdjustDemoTests;
+			productName = KeyboardAdjustDemoTests;
+			productReference = 9AF07C361B2987EA00FBA55C /* KeyboardAdjustDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF07BCD1B29774A00FBA55C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = sevenheaven;
+				TargetAttributes = {
+					9AF07C1A1B2987EA00FBA55C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9AF07C351B2987EA00FBA55C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 9AF07C1A1B2987EA00FBA55C;
+					};
+				};
+			};
+			buildConfigurationList = 9AF07BD01B29774A00FBA55C /* Build configuration list for PBXProject "KeyboardAdjustDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF07BCC1B29774A00FBA55C;
+			productRefGroup = 9AF07BCC1B29774A00FBA55C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF07C1A1B2987EA00FBA55C /* KeyboardAdjustDemo */,
+				9AF07C351B2987EA00FBA55C /* KeyboardAdjustDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF07C191B2987EA00FBA55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF07C2C1B2987EA00FBA55C /* Main.storyboard in Resources */,
+				9AF07C311B2987EA00FBA55C /* LaunchScreen.xib in Resources */,
+				9AF07C2E1B2987EA00FBA55C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF07C341B2987EA00FBA55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF07C171B2987EA00FBA55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF07C4E1B298A7F00FBA55C /* KeyboardAdjustViewController.m in Sources */,
+				9AF07C441B29891C00FBA55C /* ViewController.m in Sources */,
+				9AF07C231B2987EA00FBA55C /* AppDelegate.m in Sources */,
+				9AF07C201B2987EA00FBA55C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF07C321B2987EA00FBA55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF07C3D1B2987EA00FBA55C /* KeyboardAdjustDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AF07C381B2987EA00FBA55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF07C1A1B2987EA00FBA55C /* KeyboardAdjustDemo */;
+			targetProxy = 9AF07C371B2987EA00FBA55C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AF07C2A1B2987EA00FBA55C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF07C2B1B2987EA00FBA55C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF07C2F1B2987EA00FBA55C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF07C301B2987EA00FBA55C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AF07BF61B29774C00FBA55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AF07BF71B29774C00FBA55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF07C3F1B2987EA00FBA55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyboardAdjustDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AF07C401B2987EA00FBA55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyboardAdjustDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AF07C421B2987EA00FBA55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyboardAdjustDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardAdjustDemo.app/KeyboardAdjustDemo";
+			};
+			name = Debug;
+		};
+		9AF07C431B2987EA00FBA55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyboardAdjustDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardAdjustDemo.app/KeyboardAdjustDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF07BD01B29774A00FBA55C /* Build configuration list for PBXProject "KeyboardAdjustDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF07BF61B29774C00FBA55C /* Debug */,
+				9AF07BF71B29774C00FBA55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF07C3E1B2987EA00FBA55C /* Build configuration list for PBXNativeTarget "KeyboardAdjustDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF07C3F1B2987EA00FBA55C /* Debug */,
+				9AF07C401B2987EA00FBA55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AF07C411B2987EA00FBA55C /* Build configuration list for PBXNativeTarget "KeyboardAdjustDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF07C421B2987EA00FBA55C /* Debug */,
+				9AF07C431B2987EA00FBA55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF07BCD1B29774A00FBA55C /* Project object */;
+}
